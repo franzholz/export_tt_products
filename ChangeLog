@@ -1,0 +1,5 @@
+
+2016-07-15 Franz Holzinger <franz@ttproducts.de>
+
+	* export_tt_products uses a hook of the export extension to be executed from the Scheduler
+	* Initial Github upload
