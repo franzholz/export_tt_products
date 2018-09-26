@@ -1,0 +1,41 @@
+{
+  "name": "jambagecom/export-tt-products",
+  "type": "typo3-cms-extension",
+  "description": "Export of data from the tables of tt_products",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "export"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/export_tt_products/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "http://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "require": {
+    "typo3/cms-core": ">=7.6.0,<8.99.99"
+  },
+  "autoload": {
+    "psr-4": {
+      "JambageCom\\Import\\": "Classes"
+    }
+  },
+  "replace": {
+    "export_tt_products": "self.version",
+    "typo3-ter/export-tt-products": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "export_tt_products"
+    }
+  }
+}
